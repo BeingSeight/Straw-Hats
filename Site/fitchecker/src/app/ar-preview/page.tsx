@@ -4,10 +4,14 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import Script from 'next/script';
+import Squares from '@/background/Squares/Squares'; // Adjust path if necessary
 
 export default function ARPreviewPage() {
   return (
-    <div className="min-h-screen bg-[#030303] text-white flex flex-col items-center justify-center p-4 space-y-16">
+    <div className="min-h-screen relative bg-[#030303] text-white flex flex-col items-center justify-center p-4 space-y-16">
+      {/* Squares background rendered behind all content */}
+      <Squares className="absolute inset-0 z-0" />
+
       <h1 className="text-4xl md:text-5xl font-bold mb-8">AR Preview</h1>
 
       {/* Snapchat AR Embed */}
@@ -39,7 +43,6 @@ export default function ARPreviewPage() {
         />
       </section>
       <Script src="https://www.snapchat.com/embed.js" strategy="afterInteractive" />
-
 
       {/* Desktop AR Preview Section */}
       <section className="w-full max-w-6xl">
@@ -145,8 +148,6 @@ export default function ARPreviewPage() {
         </div>
       </section>
 
-      {/* Snapchat AR Embed Section */}
-      
       <Link href="/" className="mt-8 text-blue-500 hover:underline">
         Back to Home
       </Link>
