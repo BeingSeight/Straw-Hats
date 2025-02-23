@@ -8,7 +8,7 @@ AI-driven size predictions.
 AR-based virtual try-ons.
 AI chatbots for user assistance.
 
-![Straw Hats Logo](![swaggAR]([https://github.com/user-attachments/assets/e3bc16e3-70fa-40b4-9b54-c8ce3d2461e2])
+![Straw Hats Logo](![swaggAR](https://github.com/BeingSeight/Straw-Hats/blob/main/swaggAR.png)
 
 Welcome aboard the Straw-Hats project! We're a crew of developers who navigated the HackX3.0 Hackathon, and this repository is the treasure map to our creation. Built with a blend of TypeScript, Python for AI, NextJS, AR made from Snapchat's AR Studio and a dash of ingenuity, we hope you find our project both interesting and useful.  Get ready to set sail! 🏴‍☠️
 
