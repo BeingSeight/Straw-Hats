@@ -1,15 +1,12 @@
 # 👒 Straw-Hats: Charting a Course for Innovation 🧭
-## AI-Powered Clothing Size Prediction & AR Try-On System
-## Idea Overview
-## Objective: Predict shoulder width, chest, and waist
-## measurements from height (and optional weight/body
-## type) to recommend clothing sizes (S, M, L, etc.) via an
-## API or web app.
+AI-Powered Clothing Size Prediction & AR Try-On System Idea Overview
+Objective: Predict shoulder width, chest, and waist measurements from height (and optional weight/body
+type) to recommend clothing sizes (S, M, L, etc.) via an API or web app.
 ## Key Features:
-## AI-driven size predictions.
-## 3D product models for immersive visualization.
-## AR-based virtual try-ons.
-## AI chatbots for user assistance.
+AI-driven size predictions.
+3D product models for immersive visualization.
+AR-based virtual try-ons.
+AI chatbots for user assistance.
 
 ![Straw Hats Logo](![swaggAR](https://github.com/user-attachments/assets/e3bc16e3-70fa-40b4-9b54-c8ce3d2461e2)
 )
